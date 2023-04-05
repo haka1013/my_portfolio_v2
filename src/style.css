@@ -1,7 +1,53 @@
+:root {
+  --background-gradient: linear-gradient(
+    90deg,
+    rgb(177, 173, 219) 11.2%,
+    rgb(245, 226, 226) 91.1%
+  );
+  --light-color: #f5e2e2;
+  --heading-font: "Radley", serif;
+  --standard-font: "Montserrat", sans-serif;
+}
+
 h1 {
-  font-family: "Radley", serif;
+  font-family: var(--heading-font);
+  font-size: 50px;
 }
 
 p {
+  font-family: var(--standard-font);
+}
+
+.full-page-container {
+  padding-top: 30px;
+  background: var(--background-gradient);
+}
+
+.navbar {
+  padding: 0 40px;
+  background: var(--background-gradient);
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.322);
+}
+
+.nav-item,
+.navbar-brand {
   font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.button-standard {
+  border: 1px solid black;
+  border-radius: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button-highlight {
+  border: 1px solid black;
+  border-radius: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f1dfe1;
+}
+
+.img-hero {
+  max-width: 500px;
 }
