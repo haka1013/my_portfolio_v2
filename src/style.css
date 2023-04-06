@@ -2,7 +2,7 @@
   --background-gradient: linear-gradient(
     90deg,
     rgb(177, 173, 219) 11.2%,
-    rgb(245, 226, 226) 91.1%
+    rgb(226, 245, 240) 91.1%
   );
   --light-color: #f5e2e2;
   --heading-font: "Radley", serif;
@@ -19,7 +19,8 @@ p {
 }
 
 .full-page-container {
-  padding-top: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--background-gradient);
 }
 
@@ -31,23 +32,28 @@ p {
 
 .nav-item,
 .navbar-brand {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--standard-font);
   text-transform: uppercase;
 }
 
 .button-standard {
   border: 1px solid black;
   border-radius: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--standard-font);
 }
 
 .button-highlight {
   border: 1px solid black;
   border-radius: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--standard-font);
   background-color: #f1dfe1;
 }
 
 .img-hero {
   max-width: 500px;
+}
+
+.highlight {
+  font-family: var(--heading-font);
+  font-size: 25px;
 }
