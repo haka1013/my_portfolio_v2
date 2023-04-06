@@ -1,12 +1,12 @@
 :root {
   --background-gradient: linear-gradient(
     90deg,
-    rgb(177, 173, 219) 11.2%,
-    rgb(226, 245, 240) 91.1%
+    rgb(193, 165, 190) 11.2%,
+    rgb(169, 185, 170) 91.1%
   );
-  --light-color: #f5e2e2;
+  --light-color: #f1dfe1;
   --heading-font: "Radley", serif;
-  --standard-font: "Montserrat", sans-serif;
+  --standard-font: monospace;
 }
 
 h1 {
@@ -16,6 +16,7 @@ h1 {
 
 p {
   font-family: var(--standard-font);
+  font-size: 18px;
 }
 
 .full-page-container {
@@ -46,11 +47,11 @@ p {
   border: 1px solid black;
   border-radius: 0;
   font-family: var(--standard-font);
-  background-color: #f1dfe1;
+  background-color: var(--light-color);
 }
 
 .img-hero {
-  max-width: 500px;
+  width: 450px;
 }
 
 .highlight {
