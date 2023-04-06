@@ -14,6 +14,11 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  font-family: var(--standard-font);
+  font-size: 35px;
+}
+
 p {
   font-family: var(--standard-font);
   font-size: 18px;
@@ -51,7 +56,7 @@ p {
 }
 
 .img-hero {
-  width: 450px;
+  width: 400px;
 }
 
 .highlight {
