@@ -73,10 +73,16 @@ p {
 }
 
 .img-hero {
-  width: 400px;
+  width: 420px;
 }
 
 .highlight {
   font-family: var(--heading-font);
   font-size: 25px;
+}
+
+@media (max-width: 576px) {
+  .mobile-center {
+    text-align: center;
+  }
 }
