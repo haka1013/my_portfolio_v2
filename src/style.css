@@ -25,7 +25,7 @@ p {
 }
 
 .full-page-container {
-  padding-top: 60px;
+  padding-top: 90px;
   padding-bottom: 60px;
   background: var(--background-gradient);
 }
@@ -72,6 +72,10 @@ p {
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.322);
 }
 
+.hero {
+  margin: 0 0 90px 0;
+}
+
 .img-hero {
   width: 420px;
 }
@@ -81,8 +85,29 @@ p {
   font-size: 25px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .mobile-center {
     text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .highlight {
+    font-size: 25px;
+  }
+  .hero {
+    margin: 0 0 60px 0;
+  }
+  .recent-work {
+    margin: 0 10px;
   }
 }
