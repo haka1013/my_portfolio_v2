@@ -49,13 +49,6 @@ p {
   transition: all 0.1s ease-in-out;
 }
 
-.button-standard:hover {
-  border: 1px solid black;
-  border-radius: 0;
-  font-family: var(--standard-font);
-  background-color: var(--light-color);
-}
-
 .button-highlight {
   border: 1px solid black;
   border-radius: 0;
@@ -64,7 +57,8 @@ p {
   transition: all 0.1s ease-in-out;
 }
 
-.button-highlight:hover {
+.button-highlight:hover,
+.button-standard:hover {
   border: 1px solid black;
   border-radius: 0;
   font-family: var(--standard-font);
