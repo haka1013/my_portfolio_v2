@@ -19,9 +19,24 @@ h2 {
   font-size: 35px;
 }
 
-p {
+h3 {
+  font-family: var(--standard-font);
+  font-size: 25px;
+}
+
+.hero p {
   font-family: var(--standard-font);
   font-size: 18px;
+}
+
+.about p {
+  font-family: var(--standard-font);
+  font-size: 15px;
+}
+
+.background p {
+  font-family: var(--standard-font);
+  font-size: 15px;
 }
 
 .full-page-container {
@@ -66,7 +81,8 @@ p {
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.322);
 }
 
-.hero {
+.hero,
+.about {
   margin: 0 0 90px 0;
 }
 
@@ -77,6 +93,14 @@ p {
 .highlight {
   font-family: var(--heading-font);
   font-size: 25px;
+}
+
+.img-background {
+  height: 150px;
+}
+
+.img-about {
+  width: 300px;
 }
 
 @media (max-width: 768px) {
