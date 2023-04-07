@@ -28,32 +28,38 @@
   </head>
   <body>
     <div class="full-page-container">
-      <div class="container">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light py-1">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">Katharina Haas</a>
           <button
             class="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-item nav-link active" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-              <a class="nav-item nav-link" href="#">About</a>
-              <a class="nav-item nav-link" href="#">My Work</a>
-              <a class="nav-item nav-link" href="#">Contact</a>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
 
       <div class="about">
         <div class="container">
