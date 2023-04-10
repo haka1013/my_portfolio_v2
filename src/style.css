@@ -1,10 +1,17 @@
 :root {
-  --background-gradient: linear-gradient(
+  --background-gradient-90: linear-gradient(
     90deg,
     rgb(193, 165, 190) 11.2%,
     rgb(169, 185, 170) 91.1%
   );
+  --background-gradient-0: linear-gradient(
+    0deg,
+    rgb(193, 165, 190) 11.2%,
+    rgb(169, 185, 170) 91.1%
+  );
   --light-color: #f1dfe1;
+  --purple: rgb(193, 165, 190);
+  --green: rgb(169, 185, 170);
   --heading-font: "Radley", serif;
   --standard-font: monospace;
 }
@@ -34,20 +41,26 @@ h3 {
   font-size: 15px;
 }
 
-.background p {
+.background {
   font-family: var(--standard-font);
   font-size: 15px;
 }
 
-.full-page-container {
+.full-page-container-gradient-90 {
   padding-top: 90px;
   padding-bottom: 60px;
-  background: var(--background-gradient);
+  background: var(--background-gradient-90);
+}
+
+.full-page-container-gradient-0 {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background: var(--background-gradient-0);
 }
 
 .navbar {
   padding: 0 40px;
-  background: var(--background-gradient);
+  background: var(--background-gradient-90);
   box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.322);
 }
 
@@ -93,6 +106,7 @@ h3 {
 .highlight {
   font-family: var(--heading-font);
   font-size: 25px;
+  color: var(--light-color);
 }
 
 .img-background {
@@ -101,6 +115,11 @@ h3 {
 
 .img-about {
   width: 300px;
+}
+
+.phrase {
+  max-width: 700px;
+  background-color: var(--green);
 }
 
 @media (max-width: 768px) {
@@ -115,6 +134,10 @@ h3 {
   }
   h2 {
     font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+    margin: 0 auto 25px auto;
   }
   p {
     font-size: 18px;

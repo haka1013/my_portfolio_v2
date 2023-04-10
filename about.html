@@ -27,10 +27,10 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <div class="full-page-container">
+    <div class="full-page-container-gradient-0">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light py-1">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Katharina Haas</a>
+          <a class="navbar-brand" href="/">Katharina Haas</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -45,10 +45,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">About</a>
+                <a class="nav-link active" href="/about.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">My Work</a>
@@ -64,20 +64,24 @@
       <div class="about">
         <div class="container">
           <div class="row">
-            <div class="col-md">
+            <div class="col-md align-self-center">
               <img
                 src="images/programmer.svg"
-                class="img-about img-fluid"
+                class="img-about img-fluid d-none d-md-block"
                 alt="Illustration of a Woman coding"
               />
             </div>
             <div class="col-md align-self-center mobile-center">
               <h1>About Katharina</h1>
               <p>
-                As a front-end
-                <span class="highlight">front-end developer</span> I like to
-                code websites. I started coding with an online workshop by
-                SheCodes, which...
+                My <span class="highlight">coding journey</span> started in 2022
+                when I attended an introduction coding class by the online
+                coding school <span class="highlight">SheCodes</span>. I enjoyed
+                coding a lot, so I decided to stick with it and join SheCodes'
+                most extensive workshop. During the workshop I have coded
+                <span class="highlight">several websites and apps</span>. <br />
+                In addition to the workshop, I have also coded websites for
+                myself as well as for friends and family.
               </p>
               <a href="#" class="btn button-highlight me-3">Contact me</a>
               <a href="#" class="btn button-standard">My work</a>
@@ -90,42 +94,46 @@
         <div class="row">
           <div class="col-sm">
             <img
-              src="images/coding.svg"
+              src="images/coding.png"
               class="rounded-circle shadow img-background"
-              alt=""
+              alt="Woman coding"
             />
-            <h3>Coding experience</h3>
+            <h3 class="mt-3">Coding experience</h3>
           </div>
           <div class="col-sm">
             <img
-              src="images/finance.svg"
+              src="images/finance.png"
               class="rounded-circle shadow img-background"
-              alt=""
+              alt="Woman in finance"
             />
-            <h3>Finance professional</h3>
+            <h3 class="mt-3">Finance professional</h3>
           </div>
           <div class="col-sm">
             <img
-              src="images/meditation.svg"
+              src="images/meditation.png"
               class="rounded-circle shadow img-background"
-              alt=""
+              alt="Woman doing yoga"
             />
-            <h3>Sports enthusiast</h3>
+            <h3 class="mt-3">Sports enthusiast</h3>
           </div>
         </div>
-
-        <p class="text-center">
-          I use <br />
-          <span class="highlight">technologies</span> <br />like HTML, CSS,
-          JavaScript, Bootstrap and APIs to code my websites. <br />
-          A <br />
-          <span class="highlight">professional coding workflow</span> <br />
-          is important to me because it allows
-          <br />
-          <span class="highlight">efficient coding</span> <br />
-          at <br />
-          <span class="highlight">high quality.</span>
-        </p>
+      </div>
+      <div
+        class="container text-center background phrase text-center mt-5 py-3 rounded shadow"
+      >
+        <i class="fa-solid fa-code mb-2"></i> <br />
+        I use <br />
+        <span class="highlight">technologies</span> <br />like HTML, CSS,
+        JavaScript, Bootstrap and APIs to code my websites. <br />
+        A <br />
+        <span class="highlight">professional coding workflow</span> <br />
+        is important to me because it allows
+        <br />
+        <span class="highlight">efficient coding</span> <br />
+        at <br />
+        <span class="highlight">high quality</span>.
+        <br />
+        <i class="fa-solid fa-code mt-2"></i>
       </div>
     </div>
 
