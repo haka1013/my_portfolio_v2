@@ -4,10 +4,15 @@
     rgb(193, 165, 190) 11.2%,
     rgb(169, 185, 170) 91.1%
   );
-  --background-gradient-0: linear-gradient(
+  --background-gradient-0-green: linear-gradient(
     0deg,
     rgb(193, 165, 190) 11.2%,
     rgb(169, 185, 170) 91.1%
+  );
+  --background-gradient-0-purple: linear-gradient(
+    0deg,
+    rgb(169, 185, 170) 11.2%,
+    rgb(193, 165, 190) 91.1%
   );
   --light-color: #f1dfe1;
   --purple: rgb(193, 165, 190);
@@ -36,9 +41,18 @@ h3 {
   font-size: 18px;
 }
 
-.about p {
+.about p,
+.my-work {
   font-family: var(--standard-font);
   font-size: 15px;
+}
+
+.my-work-hero p {
+  font-family: var(--standard-font);
+  font-size: 18px;
+}
+.my-work {
+  max-width: 900px;
 }
 
 .background {
@@ -52,10 +66,16 @@ h3 {
   background: var(--background-gradient-90);
 }
 
-.full-page-container-gradient-0 {
+.full-page-container-gradient-0-green {
   padding-top: 90px;
   padding-bottom: 60px;
-  background: var(--background-gradient-0);
+  background: var(--background-gradient-0-green);
+}
+
+.full-page-container-gradient-0-purple {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background: var(--background-gradient-0-purple);
 }
 
 .navbar {
