@@ -129,6 +129,12 @@ h3 {
   color: var(--light-color);
 }
 
+.highlight-small {
+  font-family: var(--heading-font);
+  font-size: 16px;
+  color: var(--light-color);
+}
+
 .img-background {
   height: 150px;
 }
@@ -143,7 +149,7 @@ h3 {
 }
 
 @media (max-width: 768px) {
-  .mobile-center {
+  .mobile-center-768 {
     text-align: center;
   }
 }
@@ -156,8 +162,7 @@ h3 {
     font-size: 25px;
   }
   h3 {
-    font-size: 20px;
-    margin: 0 auto 25px auto;
+    font-size: 23px;
   }
   p {
     font-size: 18px;
@@ -170,5 +175,8 @@ h3 {
   }
   .recent-work {
     margin: 0 10px;
+  }
+  .mobile-center-576 {
+    text-align: center;
   }
 }
