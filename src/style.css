@@ -36,15 +36,15 @@ h3 {
   font-size: 25px;
 }
 
-.hero p {
-  font-family: var(--standard-font);
-  font-size: 18px;
-}
-
-.about p,
+p,
 .my-work {
   font-family: var(--standard-font);
   font-size: 15px;
+}
+
+.hero p {
+  font-family: var(--standard-font);
+  font-size: 18px;
 }
 
 .my-work-hero p {
@@ -146,6 +146,14 @@ h3 {
 .phrase {
   max-width: 700px;
   background-color: var(--green);
+}
+
+.ext-link {
+  color: darkslateblue;
+}
+
+.ext-link:hover {
+  color: darkslategray;
 }
 
 @media (max-width: 768px) {
